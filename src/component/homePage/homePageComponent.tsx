@@ -12,7 +12,7 @@ const HomePageComponent = () => {
                 />
                 <div className="banner-text">
                     <h1 className="user-name">
-                       Hi ! I'm Junel <span className="first-name"> Danao</span></h1>
+                      <span>Hi ! </span> I'm Junel <span> Danao</span></h1>
                     <h2 className="status">
                         Web Developer
                     </h2>

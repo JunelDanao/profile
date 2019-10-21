@@ -1,65 +1,59 @@
 .App {
-  text-align: center;
+     text-align: center;
 }
 
 .header-color {
- 
-  background: #000000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #000000, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #000000, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #000000, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #000000, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .left-header {
- 
-  background: #000000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #000000, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #000000, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #000000, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #000000, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .mdl-layout__header-row .mdl-navigation__link {
-  font-size: 15px;
-  color: white;
+    font-size: 15px;
+    color: white;
 }
 
 .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
-  background-color: transparent !important;
+   background-color: transparent !important;
 }
 .mdl-layout__header-row .mdl-navigation__link:hover {
-  background: rgb(202, 12, 12);
-  cursor: pointer;
+    background: rgb(202, 12, 12);
+    cursor: pointer;
 }
 li a {
-  color: white;
-  font-weight: 500;
-  text-decoration: none;
-  display: flex;
-  justify-content: right;
-  line-height: 3rem;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+    line-height: 3rem;
 }
 li a:hover {
-  background: rgb(202, 12, 12);
+    background: rgb(202, 12, 12);
 }
 .homepage {
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-  height: 100vh;
-  background-color: black;
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    height: 80vh;
+    background-color: black;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
 }
 .avatar-img {
-justify-content: space-between;
-display: flex;
-left: 5%;
-top: 10%;
-position: relative;
+    justify-content: space-between;
+    display: flex;
+    left: 5%;
+    top: 10%;
+    position: relative;
 }
 
 .banner-text {
-  background-color: black;
-  opacity: .8 ;
-  width: 50%;
+  background-color: rgba(15, 15, 15, 0.966);
+  opacity: .8;
+  width: 80%;
   margin: auto;
   border-radius: 10px;
   bottom: 30%;
@@ -68,8 +62,8 @@ position: relative;
 }
 
 .banner-text h1 {
-  font-size: 45px;
-  font-weight: bold;
+  font-size: 55px;
+  font-family: 'Jomolhari', serif;
   color: white;
 }
 
@@ -81,21 +75,28 @@ position: relative;
 }
 
 .social-links  {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
+  font-size: 3.5rem;
+  color: white;
   margin: auto;
+  padding: 1rem;
+}
+.social-links a {
+  
+    color: white;
+    font-weight: 500;
 }
 
-.first-name {
+span{
   color: rgb(255, 255, 0);
+  font-family: 'Jomolhari', serif;
 
 }
 .status {
   font-size: 30px;
-  font-family: sans-serif;
   color: white;
+  font-family: 'Roboto Mono', monospace;
   font-weight: bold;
+
 }
 
 .mdl-grid {
@@ -112,4 +113,28 @@ position: relative;
   margin: auto;
   padding-top: 1em;
   color: white;
+}
+
+.fa-facebook-square:before {
+  content: "\f082";
+  right: 62%;
+  position: relative;
+}
+
+.fa-github-square:before {
+  content: "\f092";
+  right: 23%;
+  position: relative;
+}
+
+.fa-instagram:before {
+  content: "\f16d";
+  right: -22%;
+  position: relative;
+}
+
+.fa-twitter:before {
+  content: "\f099";
+  right: -62%;
+  position: relative;
 }
