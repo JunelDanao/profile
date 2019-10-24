@@ -2,21 +2,63 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.header-color {
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.homepage {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../src/component/img/background.jpg'), linear-gradient(rgba(0,0,0,1.5), rgba(0,0,0,1.5));
+}
+.avatar-img {
+  height: 250px;
+  width: 250px;
+  padding-top: 5em;
+  border-radius: 50%;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: .8 ;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 55px;
+  font-weight: bold;
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
 }
+
+.social-links {
+  width: 50%;
+  margin: auto;
+}
+.social-links i {
+  color: white;
+  font-size: 3em;
+  padding: 3px 3px;
+}
+
+.first-name {
+  color: rgb(255, 255, 0);
+
+}
+.status {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
