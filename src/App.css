@@ -43,26 +43,26 @@ li a:hover {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
 }
 .avatar-img {
-    justify-content: space-between;
-    display: flex;
-    left: 5%;
-    top: 10%;
+  display: flex;
+    width: 40%;
+    left: 0;
+    justify-content: center;
+    top: 0;
     position: relative;
+    margin: 70px;
 }
 
 .banner-text {
-  background-color: rgba(15, 15, 15, 0.966);
   opacity: .8;
   width: 80%;
-  margin: auto;
-  border-radius: 10px;
-  bottom: 30%;
-  left: 10%;
-  position: relative;
+  margin: auto 35px;
+  left: 0;
+  top: 35%;
+  position: absolute;
 }
 
 .banner-text h1 {
-  font-size: 55px;
+  font-size: 30px;
   font-family: 'Jomolhari', serif;
   color: white;
 }
@@ -86,7 +86,7 @@ li a:hover {
     font-weight: 500;
 }
 
-span{
+.user-name span{
   color: rgb(255, 255, 0);
   font-family: 'Jomolhari', serif;
 
@@ -114,27 +114,36 @@ span{
   padding-top: 1em;
   color: white;
 }
-
-.fa-facebook-square:before {
-  content: "\f082";
-  right: 62%;
-  position: relative;
+.mdl-layout__drawer-button {
+  display: block;
+  position: absolute;
+  height: 48px;
+  width: 50px;
+  border: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  font-size: 26px;
+  line-height: 56px;
+  font-family: Helvetica, Arial, sans-serif;
+  top: 0;
+  left: 0;
+  color: red;
+  z-index: 4;
 }
 
-.fa-github-square:before {
-  content: "\f092";
-  right: 23%;
-  position: relative;
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  color: red;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  word-wrap: normal;
+  -webkit-font-smoothing: antialiased;
 }
 
-.fa-instagram:before {
-  content: "\f16d";
-  right: -22%;
-  position: relative;
-}
-
-.fa-twitter:before {
-  content: "\f099";
-  right: -62%;
-  position: relative;
-}

@@ -8,7 +8,7 @@ const pageComponent = () => {
     return (
 
       <Switch>
-          <Route path="/home" component={HomePageComponent}></Route>
+          <Route exact path="/" component={HomePageComponent}></Route>
           <Route path="/about" component={AboutPageComponent}></Route>
           <Route path="/contact" component={ContactPageComponent}></Route>
       </Switch>
