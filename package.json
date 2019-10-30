@@ -2,7 +2,7 @@
   "name": "mywebsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://juneldanao.github.io/mywebsite",
+  "homepage": "https://juneldanao.github.io/profile",
   "dependencies": {
     "@types/jest": "24.0.19",
     "@types/node": "12.11.6",
