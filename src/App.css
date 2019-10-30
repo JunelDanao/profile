@@ -44,7 +44,7 @@ li a:hover {
 }
 .avatar-img {
   display: flex;
-    width: 40%;
+    width: 60%;
     left: 0;
     justify-content: center;
     top: 0;
@@ -55,9 +55,9 @@ li a:hover {
 .banner-text {
   opacity: .8;
   width: 80%;
-  margin: auto 35px;
+  margin: auto 45px;
   left: 0;
-  top: 35%;
+  top: 45%;
   position: absolute;
 }
 
@@ -92,7 +92,7 @@ li a:hover {
 
 }
 .status {
-  font-size: 30px;
+  font-size: 20px;
   color: white;
   font-family: 'Roboto Mono', monospace;
   font-weight: bold;
@@ -147,3 +147,6 @@ li a:hover {
   -webkit-font-smoothing: antialiased;
 }
 
+li a:hover{
+  background: red;
+}

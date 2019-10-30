@@ -14,7 +14,7 @@ const HomePageComponent = () => {
                     <h1 className="user-name">
                       <span>Hi ! </span> I'm Junel <span> Danao</span></h1>
                     <h2 className="status">
-                        Web Developer
+                        Junior | Web Developer
                     </h2>
                     <hr/>
 
