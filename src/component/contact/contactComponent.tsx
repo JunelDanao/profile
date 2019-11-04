@@ -1,4 +1,4 @@
-import React, { Component} from 'react';
+import React from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
 
 const ContactComponent = () => {

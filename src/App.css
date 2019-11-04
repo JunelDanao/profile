@@ -87,6 +87,17 @@ h2 {
   width: 40%;
   margin: auto;
 }
+.about-right-col {
+  background: #27221f;
+  color: white;
+}
+
+hr {
+  width: 100%;
+}
+h5 {
+  color: white; 
+}
 
 .social-links  {
   font-size: 3.5rem;
@@ -118,10 +129,21 @@ h2 {
   background: black;
   height: 100vh;
 }
+.mdl-grid {
+  flex-flow: row wrap;
+  margin: 0 auto 0 auto;
+  align-items: stretch;
+  justify-content: center;
+}
+.dataInfo {
+  justify-content: center;
+}
 .contact-list {
   background: white;
 }
-
+p{
+  color: white;
+}
 .contact-body p {
   width: 75%;
   margin: auto;
@@ -187,6 +209,7 @@ h2 {
  
 }
 } 
+
 
 @media only screen and (max-width: 320px) {
   .mdl-cell {
