@@ -5,7 +5,7 @@ const EducationComponent = (props: any) => {
     return (
         <Grid>
             <Cell col={4}>
-                <p>{props.startYear} = {props.endYear} </p>
+                <p>{props.startYear} - {props.endYear} </p>
             </Cell>
             <Cell col={8}>
                 <h4 style={{marginTop: '0px'}}>{props.schoolName}</h4>
