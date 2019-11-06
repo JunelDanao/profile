@@ -3,10 +3,13 @@ import { Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
 
 const ContactComponent = () => {
     return (
-        <div className="contact-body">
-        <Grid className="contact-grid">
-          <Cell col={6}>
-            <h2>Junel C. Danao</h2>
+        <div className="contact-body" >
+        <Grid className="contact-grid" style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://i.ibb.co/9NXvyvy/contact-ways.jpg')",
+             backgroundSize: 'cover', 
+             backgroundRepeat: 'no-repeat',
+             width: '99%'}}>
+          <Cell col={6 }>
+          
             <img
             src="https://i.ibb.co/Krb1ZV6/portrait.png"
             alt="avatar"
@@ -18,34 +21,39 @@ const ContactComponent = () => {
           <Cell col={6}>
             <h2 className="contact">Contact Me</h2>
             <hr/>
-            <div className="contact-list">
-                <List>
+            <div>
+                <List className="contact-list" 
+                style={{
+                  backgroundImage: "url('https://i.ibb.co/w77q9W2/contact.jpg')",
+                  backgroundSize: '225px',
+                  backgroundPosition: 'center',
+                  backgroundRepeat: 'no-repeat' }}>
                     <ListItem>
-                    <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton', padding: '0 10px'}}>
+                    <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton', padding: '0 5px'}}>
                       <i className="fa fa-phone-square" aria-hidden="true" /> 09751475211
                       </ListItemContent>
                     </ListItem>
 
                     <ListItem>
-                    <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton', padding: '0 10px'}}>
-                      <i className="fa fa-envelope" aria-hidden="true" />jhonezdanao@gmail.com
+                    <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton', padding: '0'}}>
+                      <i className="fa f-envelope" aria-hidden="true" />jhonezdanao@gmail.com
                       </ListItemContent>
                     </ListItem>
 
                     <ListItem>
-                    <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton', padding: '0 10px'}}>
+                    <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton', padding: '0'}}>
                       <i className="fa fa-facebook-square" aria-hidden="true" /> Junel C. Danao
                       </ListItemContent>
                     </ListItem>
 
                     <ListItem>
-                    <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton', padding: '0 10px'}}>
+                    <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton', padding: '0 7px'}}>
                       <i className="fa fa-twitter-square" aria-hidden="true" /> Jhoneeez
                       </ListItemContent>
                     </ListItem>
                     
                     <ListItem>
-                    <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton', padding: '0 10px'}}>
+                    <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton', padding: '0'}}>
                       <i className="fa fa-instagram" aria-hidden="true" /> Jhoneeez
                       </ListItemContent>
                     </ListItem>

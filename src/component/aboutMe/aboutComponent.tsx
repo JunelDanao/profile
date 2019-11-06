@@ -4,10 +4,20 @@ import Education from '../education/educationComponent';
 
 const AboutComponent = () => {
     return (
-          
+      
         <div>
-          <Grid>
-              <Cell col={4}>
+          <Grid className="about-body" 
+          style={{
+                  width: '100%', 
+                  height: '100%',
+                  margin: '5% auto', 
+                  padding: '2rem 0.1rem', 
+                  backgroundImage: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://i.ibb.co/zHr4RqK/bg.jpg')",
+                  backgroundSize: 'cover', 
+                  backgroundRepeat: 'no-repeat'
+                }}>
+
+              <Cell className="about-left-col" col={4}>
               <div style={{textAlign: 'center'}}>
                   <img 
                   src="https://i.ibb.co/Krb1ZV6/portrait.png"

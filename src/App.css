@@ -1,5 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  
+}
 .App {
+
      text-align: center;
+   
+    
 }
  
 
@@ -22,6 +30,7 @@
 
 .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
    background-color: transparent !important;
+   
 }
 .mdl-layout__header-row .mdl-navigation__link:hover {
     background: rgb(202, 12, 12);
@@ -39,7 +48,7 @@ li a:hover {
     background: rgb(202, 12, 12);
 }
 .homepage {
-    height: 80vh;
+    height: 90vh;
     background-color: black;
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
 }
@@ -58,12 +67,12 @@ h2 {
 
 .avatar-img {
   display: flex;
-    width: 60%;
+    width: 83%;
     left: 0;
     justify-content: center;
     top: 0;
     position: relative;
-    margin: 70px;
+    margin: 40px;
 }
 
 .banner-text {
@@ -89,18 +98,24 @@ h2 {
   margin: auto;
 }
 .about-right-col {
-  background: #27221f;
   color: white;
+  
  
 }
-
+.about-left-col {
+  padding: 4rem;
+  
+}
 hr {
   width: 100%;
 }
 h5 {
   color: white; 
 }
-
+.contact-body {
+  width: 100vw;
+  height: 90vh;
+}
 .social-links  {
   font-size: 3.5rem;
   color: white;
@@ -136,6 +151,7 @@ h5 {
   margin: 0 auto 0 auto;
   align-items: stretch;
   justify-content: center;
+
 }
 .dataInfo {
   justify-content: center;
@@ -187,6 +203,14 @@ p{
   content: "\f099";
   padding: 0.5rem;
 }
+.fa-envelope:before {
+  content: "\f0e0";
+  padding: 0 5px;
+}
+.contact-body {
+  padding:0;
+  
+}
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
@@ -202,70 +226,74 @@ p{
 }
 
 @media only screen and (min-width: 992px) {
-  .mdl-cell--12-col, .mdl-cell--12-col-desktop.mdl-cell--12-col-desktop {
-    width: calc(100% - 16px);
-    background-repeat: no-repeat;
-    background-position: center;
-background-image: linear-gradient( rgba(0, 0, 0, 10.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://i.ibb.co/Krb1ZV6/portrait.png');
-}
+    .mdl-cell--12-col, .mdl-cell--12-col-desktop.mdl-cell--12-col-desktop {
+      width: calc(100% - 16px);
+      background-repeat: no-repeat;
+      background-position: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 10.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://i.ibb.co/Krb1ZV6/portrait.png');
+    }
 
-  
-  .avatar-img {
-    width: 33%;
-    left: 7%;
-    position: absolute;
-}
- .banner-text {
-  opacity: .8;
-  width: 80%;
-  margin: auto;
-  left: 30%;
-  top: 16%;
- }
- .banner-text h1 {
-   font-size: 60px;
-  
-}
-.status {
- font-size: 27px;
- 
-}
+    .about-right-col {
+      color: white;
+      padding: 7rem;
+     
+    }
+    .avatar-img {
+      width: 35%;
+      left: 7%;
+      position: absolute;
+    }
+    .banner-text {
+    opacity: .8;
+    width: 80%;
+    margin: auto;
+    left: 30%;
+    top: 8%;
+    }
+    .banner-text h1 {
+      font-size: 60px;
+
+    }
+    .status {
+    font-size: 27px;
+
+    }
 } 
 
 
 @media only screen and (max-width: 320px) {
-  .mdl-cell {
-    margin: 8px;
-    width: calc(100% - 16px);
-}
-  
-.avatar-img {
-  width: 58%;
-  top: 0;
-  left: 0;
-  position: absolute;
-}
-.banner-text {
-  opacity: .8;
-  width: 75%;
-  position: absolute;
-}
-  .banner-text h1 {
-    font-size: 25px;
-   
-}
-.status {
-  font-size: 15px;
-  
-}
+    .mdl-cell {
+      margin: 8px;
+      width: calc(100% - 16px);
+    }
 
-.social-links {
-  font-size: 2.5rem;
-  padding: 1rem;
-}
-.banner-text hr {
-  border-top: 5px dotted white;
-  width: 95%;
-  margin: auto;
-}
+    .avatar-img {
+    width: 58%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    }
+    .banner-text {
+    opacity: .8;
+    width: 75%;
+    position: absolute;
+    }
+    .banner-text h1 {
+      font-size: 25px;
+      
+    }
+    .status {
+    font-size: 15px;
+
+    }
+
+    .social-links {
+    font-size: 2.5rem;
+    padding: 1rem;
+    }
+    .banner-text hr {
+    border-top: 5px dotted white;
+    width: 95%;
+    margin: auto;
+    }
 } 
