@@ -1,6 +1,7 @@
 .App {
      text-align: center;
 }
+ 
 
 .header-color {
     background: #000000;  /* fallback for old browsers */
@@ -115,6 +116,7 @@ h5 {
 .user-name span{
   color: rgb(255, 255, 0);
   font-family: 'Jomolhari', serif;
+  
 
 }
 .status {
@@ -202,7 +204,11 @@ p{
 @media only screen and (min-width: 992px) {
   .mdl-cell--12-col, .mdl-cell--12-col-desktop.mdl-cell--12-col-desktop {
     width: calc(100% - 16px);
+    background-repeat: no-repeat;
+    background-position: center;
+background-image: linear-gradient( rgba(0, 0, 0, 10.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://i.ibb.co/Krb1ZV6/portrait.png');
 }
+
   
   .avatar-img {
     width: 33%;

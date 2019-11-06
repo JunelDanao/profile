@@ -2,6 +2,7 @@ import React from 'react';
 import { Layout, Header,Navigation, Drawer, Content, HeaderRow, Textfield } from 'react-mdl';
 import PageRoute from '../pageRoute/page';
 import { Link } from 'react-router-dom';
+ 
 
 
 const DrawerComponent = () => {
@@ -11,7 +12,7 @@ const DrawerComponent = () => {
         <Header className="header-color" title="My Website" scroll>
             <Navigation style={{ background: 'black', color: 'white', fontSize: '23px'}}>
           
-                    <Link to="/home">Home</Link>
+                    <Link to="/">Home</Link>
                     <Link to="/about">About Me</Link>
                     <Link to="/contact">Contact</Link>
             
@@ -23,7 +24,7 @@ const DrawerComponent = () => {
             <Navigation className="left-header">
                 <ul>
                     <li>
-                    <Link to="/home">Home</Link>
+                    <Link to="/">Home</Link>
                     <Link to="/about">About Me</Link>
                     <Link to="/contact">Contact</Link>
                     </li>
