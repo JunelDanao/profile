@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Cell } from 'react-mdl';
 import AboutComponent from '../aboutMe/aboutComponent';
-import ContactComponent from '../contact/contactComponent';
+import ContactComponent from '../contact/contactComponent'
 
 const HomePageComponent = () => {
     return (
@@ -39,7 +39,6 @@ const HomePageComponent = () => {
             </Grid>
             <AboutComponent />
             <ContactComponent />
-
 
         </div>
     

@@ -9,8 +9,7 @@ const AboutComponent = () => {
           <Grid className="about-body" 
           style={{
                   width: '100%', 
-                  height: '100%',
-                  margin: '5% auto', 
+                  margin: '0% auto', 
                   padding: '2rem 0.1rem', 
                   backgroundImage: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://i.ibb.co/zHr4RqK/bg.jpg')",
                   backgroundSize: 'cover', 
@@ -24,7 +23,7 @@ const AboutComponent = () => {
                   alt="avatar"
                   style={{height: '200px'}}/>
               </div>
-              <h2>Junel  C. Danao</h2>
+              <h2 style={{ fontSize: '30px'}}>Junel  C. Danao</h2>
               <h4 style={{color: 'grey'}}>Junior Developer</h4>
               <hr style={{borderTop: '4px solid white',color: 'white', width: '100%'}} />
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea magnam nihil repellendus est vero quas? Quae, deleniti molestias. Minima soluta, aliquam reprehenderit quod laborum quas dolores veritatis! Praesentium, neque dolor.</p>
