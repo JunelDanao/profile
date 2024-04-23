@@ -11,7 +11,7 @@
     "@types/react-mdl": "^1.7.27",
     "@types/react-router-dom": "^5.1.0",
     "@types/react-scroll": "^1.5.4",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^5.0.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-mdl": "^1.11.0",
